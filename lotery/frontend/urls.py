@@ -5,5 +5,5 @@ from .views import getRandomPrize
 
 urlpatterns = [
     path('', TemplateView.as_view(template_name='base.html'), name='home'),
-    path('getPrize', getRandomPrize(), name='prize'),
+    path('getPrize', getRandomPrize, name='prize'),
 ]
