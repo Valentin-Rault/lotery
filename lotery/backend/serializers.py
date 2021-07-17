@@ -6,4 +6,4 @@ from .models import Words
 class WordsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Words
-        fields = 'all'
+        fields = ['word']
