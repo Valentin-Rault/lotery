@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "505eb901a17e730f880935ffc1afa2d88f815c1adbccd8639772160dca08fa27"
+            "sha256": "49027cef5226cf5d3b6a9b8ee9019cdb5170110376140ebb37e38714bc273387"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,14 @@
         ]
     },
     "default": {
+        "aiodjango": {
+            "hashes": [
+                "sha256:02cc6cd03c9399007877e306c2a20e40b13438041f2b97bd27b00476f03e86a8",
+                "sha256:af816fbb239db2965e8375111f1380915324a6f1baa4dd343df00ee89f4e9248"
+            ],
+            "index": "pypi",
+            "version": "==0.1.0"
+        },
         "aiohttp": {
             "hashes": [
                 "sha256:02f46fc0e3c5ac58b80d4d56eb0a7c7d97fcef69ace9326289fb9f1955e65cfe",
@@ -58,6 +66,13 @@
             ],
             "index": "pypi",
             "version": "==3.7.4.post0"
+        },
+        "aiohttp-wsgi": {
+            "hashes": [
+                "sha256:4952e4d7f6f12e0213e90a38a54d1069587c4376771b9f007ce3bdf79fefc309",
+                "sha256:5d8424f180da1a81ce57aebdceaa2b615ee8bade9e566809196a63483bfd6da9"
+            ],
+            "version": "==0.9.1"
         },
         "asgiref": {
             "hashes": [

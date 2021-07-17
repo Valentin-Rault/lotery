@@ -8,6 +8,7 @@ django = "*"
 djangorestframework = "*"
 asyncio = "*"
 aiohttp = "*"
+aiodjango = "*"
 
 [dev-packages]
 

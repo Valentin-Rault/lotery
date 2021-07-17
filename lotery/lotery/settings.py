@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'aiodjango',
     'django.contrib.staticfiles',
     'backend',
     'frontend',
